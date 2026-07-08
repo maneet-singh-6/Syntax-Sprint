@@ -1,34 +1,32 @@
-# Boilerplate: Fullstack with Sass
+# Syntax Sprint
 
-## Setup
+A gamified muscle memory coding trainer that enables beginners in the industry to practice typing code. This was built as the final group project for Dev Academy Aotearoa's Full-Stack Software Development Bootcamp.
 
-### What's included
+**Live:** [TBD: Please use npm run dev in vs code to view locally. The link is subject to all teammates' consented approval.]
+**Team:** 5 - built in 2 weeks from 22 Jun to 1 Jul 2026.
 
-This repo includes:
+## My role
 
-* a single, simple API endpoint (`/api/v1/fruits`)
-* frontend routing via react-router
-* an auth0 setup waiting to be configured
-* an example database module (`server/db/fruits.js`)
-* an API client module (`client/apis/fruits.js`)
-* configuration for Vitest and testing library
-* configuration for server-side debugging in VS Code
-* configuration for preprocessing css with tailwind support
+I was the **Agile facilitator** for this project where I ran daily stand-ups and retros, assisted in keeping the ball moving, and helped distribute the tickets evenly according to each member's expectations and learning outcomes.
 
-### Installation
+I contributed to the following areas:
+- The shared Supabase client and `requireAuth` middleware (server-side auth)
+- The `POST /api/v1/scores` route and its DB function
+- A CORS/env smoke test across local + the Render deployment
+- Debugging why new users were landing in the auth table but not the
+  `users` table
 
-#### **From the Github UI**
+  Formal Declaration: I will mention that many of these concepts required the assistance of Claude LLM models facilitating the learning of new concepts and integrations such as Supabase. I am actively working on building the understanding properly without assistance.
 
-See the instructions [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) to use Github's feature to create a new repo from a template.
+  ## Stack
 
+React · TypeScript · Express · Supabase · Auth0 · Vitest
+
+## Running locally
+
+```bash
+git clone git@github.com:maneet-singh-6/Syntax-Sprint.git
+cd Syntax-Sprint
+npm install
+npm run dev
 ```
-git clone [your-project-ssh-address]
-cd [your-project-name]
-npm install # to install dependencies
-npm run dev # to start the dev server
-```
-
-You can find the server running on [http://localhost:3000](http://localhost:3000) and the client running on [http://localhost:5173](http://localhost:5173).
-
----
-[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=boilerplate-fullstack)

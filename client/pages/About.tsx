@@ -1,8 +1,8 @@
 import SanImg from '../styles/image/san.jpeg'
 import SqwImg from '../styles/image/sqw.jpeg'
-import YoungImg from '../styles/image/profile_image-young.webp'
-import DanielImg from '../styles/image/daniel.webp'
-import ParkieImg from '../styles/image/parkie.webp'
+import YoungImg from '../styles/image/san.jpeg'
+import DanielImg from '../styles/image/pln.jpeg'
+import ParkieImg from '../styles/image/pat.jpeg'
 
 type TeamMember = {
   id: number
@@ -18,14 +18,14 @@ const teamMembers: TeamMember[] = [
     image: YoungImg,
     name: 'Young',
     role: 'Product Owner',
-    bio: "Hi, I'm Young, the Product Owner and Twin Dad Developer. Let’s be completely honest: the only reason I pitched this typing game project is for the hardcore early childhood coding education of my 2-year-old twin daughters. If they aren't hitting 100 CPM in JavaScript by age three, how will they survive in this economy?",
+    bio: "Hi, I'm Young!",
   },
   {
     id: 2,
     image: DanielImg,
     name: 'Daniel',
     role: 'Git Keeper',
-    bio: 'Hey, I’m Daniel. When im not coding I like going for a ride on my motorbike, having friends over for a BBQ or working on projects. I had fun working on this project and working as part of a team. Cheers! ',
+    bio: 'Hey, I’m Daniel.',
   },
   {
     id: 3,
@@ -39,14 +39,14 @@ const teamMembers: TeamMember[] = [
     image: SqwImg,
     name: 'Tamahuia',
     role: 'Vibes Watcher',
-    bio: 'sdjnvoje',
+    bio: "Hi, I'm Tamahuia!",
   },
   {
     id: 5,
     image: ParkieImg,
     name: 'Parkie',
     role: 'Git Keeper',
-    bio: "Hi, I'm Parkie! I'm a learning developer. While this project has thrown quite a few challenges my way, I’m incredibly excited to use this app to practice by myself and sharpen my coding skills.",
+    bio: "Hi, I'm Parkie!",
   },
 ]
 
