@@ -2,7 +2,7 @@
 
 A gamified muscle memory coding trainer that enables beginners in the industry to practice typing code. This was built as the final group project for Dev Academy Aotearoa's Full-Stack Software Development Bootcamp.
 
-**Live:** [TBD: Please use npm run dev in vs code to view locally. The link is subject to all teammates' consented approval.]
+**Live:** syntax-sprint.onrender.com
 **Team:** 5 - built in 2 weeks from 22 Jun to 1 Jul 2026.
 
 ## My role
